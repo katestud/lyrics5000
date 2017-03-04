@@ -1,0 +1,22 @@
+SearchTopicIntent give me a song about {love | Lyric}
+SearchTopicIntent find me a song about {cars | Lyric}
+SearchTopicIntent i'd like a song about {summer | Lyric}
+SearchTopicIntent {breakups | Lyric}
+
+GetDifferentTrackIntent tell me another one
+GetDifferentTrackIntent another
+GetDifferentTrackIntent try again
+GetDifferentTrackIntent no i don't like that one
+GetDifferentTrackIntent no
+
+GetLyricsIntent {thriller | Song} by {Artist}
+GetLyricsIntent find me the lyrics for {thriller | Song} by {Artist}
+GetLyricsIntent what are the lyrics for {thriller | Song} by {Artist}
+GetLyricsIntent lyrics for {thriller | Song} by {Artist}
+GetLyricsIntent {Artist} {thriller | Song} lyrics
+GetLyricsIntent get lyrics
+GetLyricsIntent tell me the lyrics
+GetLyricsIntent yes
+
+CloseAppIntent that's all
+CloseAppIntent thanks

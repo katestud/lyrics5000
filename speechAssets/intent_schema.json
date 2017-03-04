@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "intent": "SearchTopicIntent",
+      "slots": [
+        {
+          "name": "Lyric",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "GetDifferentTrackIntent"
+    },
+    {
+      "intent": "GetLyricsIntent",
+      "slots": [
+        {
+          "name": "Artist",
+          "type": "AMAZON.Artist"
+        },
+        {
+          "name": "Song",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "CloseAppIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
